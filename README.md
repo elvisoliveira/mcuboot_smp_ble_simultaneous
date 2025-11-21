@@ -16,9 +16,12 @@ This sample demonstrates how to perform Device Firmware Updates (DFU) simultaneo
 Before you start, ensure you have:
 
 - **nRF5340 DK** (Development Kit)
-- **nRF Connect SDK** installed and configured
+- **nRF Connect SDK v2.5.1** or later installed and configured
+- **Toolchain** for nRF Connect SDK v2.5.1 (required compiler and build tools)
 - **west tool** available in your PATH
 - **nrfjprog** command-line tool installed
+
+> **Important:** This sample has been tested with nRF Connect SDK v2.5.1. Using older or newer versions may cause compatibility issues.
 
 ---
 
